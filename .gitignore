@@ -1,0 +1,67 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Jupyter Notebook checkpoints
+# .ipynb_checkpoints/
+
+# Databricks specific files
+.databrickscfg
+*.dbc
+*.db
+
+# # PySpark temporary files
+# *.tmp
+# *.log
+# *.csv
+# *.json
+# *.parquet
+# *.avro
+
+# Environment files
+.env
+*.env
+venv/
+.env/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+*.kate-swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# # Data files
+# data/
+# *.csv
+# *.json
+# *.parquet
+# *.xlsx
+# *.xls
+
+# Test and coverage
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Virtual environment
+venv/
+.env/
+*.egg
+*.eggs/
